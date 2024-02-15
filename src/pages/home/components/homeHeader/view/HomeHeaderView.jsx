@@ -64,11 +64,10 @@ const HomeHeaderView = () => {
       <div className='flex flex-col justify-center items-center my-10'>
         <button
           className="px-6 py-2 text-White bg-Green border-solid border-2 border-Green hover:bg-Blue  hover:border-White rounded-2xl font-montserrat text-2xl font-Semibold"
-          // text-base font-medium text-White bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
-          // onClick={() => {
-          //   const formulario = document.getElementById('formularioInscripcion');
-          //   formulario.scrollIntoView({ behavior: 'smooth' });
-          // }}
+          onClick={() => {
+            const formulario = document.getElementById('inscriptionForm');
+            formulario.scrollIntoView({ behavior: 'smooth' });
+          }}
           type='button'
         >
           INSCRIBIRSE
