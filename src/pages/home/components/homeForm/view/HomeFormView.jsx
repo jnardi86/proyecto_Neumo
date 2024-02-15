@@ -54,7 +54,7 @@ const HomeFormView = () => {
   }
 
   return (
-    <div className='bg-White '>
+    <div className='bg-White mb-40'>
       <div className='px-2 py-2 mb-10 bg-Blue'>
         <h2 className='font-montserrat font-Bold text-4xl text-White mb-5'>INSCRIPCION</h2>
         <form className="max-w-sm mx-auto" id="inscriptionForm" onSubmit={handleSubmit}>
