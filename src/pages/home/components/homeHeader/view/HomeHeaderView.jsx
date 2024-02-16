@@ -4,8 +4,7 @@ import MedicalCard from '../../../../../components/svg/MedicalCard'
 import Calendar from '../../../../../components/svg/Calendar'
 import Time from '../../../../../components/svg/Time'
 import Location from '../../../../../components/svg/Location'
-import bannerImage from '../../../../../assets/banner-image.jpg'
-import Emergency from '../../../../../components/svg/Emergency'
+
 
 const HomeHeaderView = () => {
   return (
