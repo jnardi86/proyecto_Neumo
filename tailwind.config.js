@@ -15,11 +15,15 @@ export default {
       Semibold: '600',
       Bold: '700',
     },
+
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
         montserratAlternate: ['Montserrat Alternates', 'sans-serif'],
         montserratSubrayada: ['Montserrat Subrayada', 'sans-serif']
+      },
+      screens: {
+        'desktop': '1440px',
       },
     },
   },

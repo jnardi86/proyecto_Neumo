@@ -4,11 +4,13 @@ import MedicalCard from '../../../../../components/svg/MedicalCard'
 import Calendar from '../../../../../components/svg/Calendar'
 import Time from '../../../../../components/svg/Time'
 import Location from '../../../../../components/svg/Location'
+import bannerImage from '../../../../../assets/banner-image.jpg'
+import Emergency from '../../../../../components/svg/Emergency'
 
 const HomeHeaderView = () => {
   return (
-    <div className=' bg-Blue text-White flex flex-col mb-10'>
-      <div className='flex gap-2 justify-center items-center py-5'>
+    <div className=' bg-Blue text-White flex flex-col items-center justify-center mb-40'>
+      <div className='w-full flex gap-2 justify-center items-center py-5 desktop:justify-start desktop:p-5'>
         <div>
           <Hospital
             color='#F9F9F9'
@@ -22,14 +24,13 @@ const HomeHeaderView = () => {
           </p>
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center font-montserrat font-Bold '>
-        <h1 className='text-2xl'>CONSORCIO DE ASMA 2024</h1>
-        <h3 className='text-lg'>De Hospitales Públicos de CABA</h3>
+      <div className='w-full flex flex-col justify-center items-center font-montserrat font-Bold desktop:items-start desktop:p-5'>
+        <h1 className='text-2xl lg:text-5xl desktop:text-7xl'>CONSORCIO DE ASMA 2024</h1>
+        <h3 className='text-lg lg:text-3xl desktop:text-5xl'>De Hospitales Públicos de CABA</h3>
       </div>
-
-      <div className='my-10'>
-        <ul className='flex flex-col items-center'>
-          <li className='flex gap-2 justify-center items-center w-full py-1'>
+      < div className='w-full flex justify-center my-10 lg:my-0 desktop:justify-start desktop:pl-5'>
+        <ul className='flex flex-col items-center lg:flex-row'>
+          <li className='flex gap-2 justify-center items-center w-full py-1 lg:justify-start lg:w-[220px] desktop:w-[300px]'>
             <span>
               <MedicalCard
                 color='#2FCE91'
@@ -37,9 +38,9 @@ const HomeHeaderView = () => {
                 height='25px'
               />
             </span>
-            <span className='w-[175px] font-montserratAlternate font-Regular text-sm'>| Hospital Santojanni</span>
+            <span className='w-[175px] font-montserratAlternate font-Regular text-sm desktop:text-base desktop:w-[200px]'>| Hospital Santojanni</span>
           </li>
-          <li className='flex gap-2 justify-center items-center w-full py-1'>
+          <li className='flex gap-2 justify-center items-center w-full py-1 lg:justify-start lg:w-[220px] desktop:w-[300px]'>
             <span>
               <MedicalCard
                 color='#2FCE91'
@@ -47,9 +48,9 @@ const HomeHeaderView = () => {
                 height='25px'
               />
             </span>
-            <span className='w-[175px] font-montserratAlternate font-Regular text-sm'>| Hospital Ramos Mejía</span>
+            <span className='w-[175px] font-montserratAlternate font-Regular text-sm desktop:text-base desktop:w-[200px]'>| Hospital Ramos Mejía</span>
           </li>
-          <li className='flex gap-2 justify-center items-center w-full py-1'>
+          <li className='flex gap-2 justify-center items-center w-full py-1 lg:justify-start lg:w-[220px] desktop:w-[]300px'>
             <span >
               <MedicalCard
                 color='#2FCE91'
@@ -57,13 +58,13 @@ const HomeHeaderView = () => {
                 height='25px'
               />
             </span>
-            <span className='w-[175px] font-montserratAlternate font-Regular text-sm'>| Hospital Fernandez</span>
+            <span className='w-[175px] font-montserratAlternate font-Regular text-sm desktop:text-base desktop:w-[200px]'>| Hospital Fernandez</span>
           </li>
         </ul>
       </div>
-      <div className='flex flex-col justify-center items-center my-10'>
+      <div className='w-full flex flex-col justify-center items-center my-10 lg:my-16 desktop:items-start desktop:p-5'>
         <button
-          className="px-6 py-2 text-White bg-Green border-solid border-2 border-Green hover:bg-Blue  hover:border-White rounded-2xl font-montserrat text-2xl font-Semibold"
+          className="px-6 py-2 text-White bg-Green border-solid border-2 border-Green hover:bg-Blue hover:border-White rounded-2xl font-montserrat text-2xl font-Semibold desktop:p-5 "
           onClick={() => {
             const formulario = document.getElementById('inscriptionForm');
             formulario.scrollIntoView({ behavior: 'smooth' });
@@ -73,8 +74,8 @@ const HomeHeaderView = () => {
           INSCRIBIRSE
         </button>
       </div>
-      <div className='flex justify-center items-center w-full bg-Green py-5'>
-        <ul className='flex flex-col items-center'>
+      <div className='flex justify-center items-center w-full bg-Green py-5 desktop:rounded-tl-full desktop:rounded-tr-full'>
+        <ul className='flex flex-col items-center md:flex-row'>
           <li className='flex gap-2 justify-center items-center w-full py-1'>
             <span>
               <Calendar

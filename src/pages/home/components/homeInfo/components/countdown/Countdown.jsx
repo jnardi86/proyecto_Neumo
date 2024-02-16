@@ -49,16 +49,17 @@ const Countdown = () => {
     }, []);
 
     return (
-        <div className='flex justify-center mx-auto py-5 my-5 w-[350px] bg-Blue rounded-xl'>
-            <div className='flex justify-center items-center gap-5'>
+        <div className='flex justify-center mx-auto py-5 my-5 w-[350px] h-[150px] md:w-[450px] bg-Blue rounded-xl'>
+
+            <div className='flex justify-center items-center gap-5 md:gap-10'>
                 {Object.entries(timeLeft).map(([key, value]) => {
                     const renamedlabel = getRenamedLabel(key);
                     return (
-                        <div className='flex flex-col justify-center items-center' key={renamedlabel}>
+                        <div className='flex flex-col justify-center items-center gap-2' key={renamedlabel}>
                             <div>
-                                <span className=' font-montserrat font-Semibold text-White text-2xl'> {renamedlabel} </span>
+                                <span className=' font-montserrat font-Semibold text-White text-3xl'> {renamedlabel} </span>
                             </div>
-                            <span className=' font-montserratAlternate font-Regular text-White text-xl'>{value}</span>
+                            <span className=' font-montserratAlternate font-Regular text-White text-2xl'>{value}</span>
                         </div>
                     );
                 })}

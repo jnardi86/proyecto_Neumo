@@ -9,7 +9,7 @@ const HomeView = () => {
 
     return (
         <>
-            <div className="flex flex-col ">
+            <div className="flex flex-col max-w-full mx-auto">
                 <HomeHeaderView />
                 <HomeInfoView />
                 <HomeFormView />
