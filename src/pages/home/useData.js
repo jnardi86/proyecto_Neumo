@@ -1,7 +1,8 @@
 import Calendar from "../../components/svg/Calendar"
 import MedicalCard from "../../components/svg/MedicalCard"
-
-
+import Time from "../../components/svg/Time"
+import Location from "../../components/svg/Location"
+import Connection from "../../components/svg/Connection"
 
 const useData = () => {
 
@@ -11,19 +12,25 @@ const useData = () => {
             iconInfo: Calendar,
         },
         {
-            textInfo: 'Jueves 4 de abril',
-            iconInfo: Calendar,
+            textInfo: 'De 8 a 12:30hs',
+            iconInfo: Time,
         },
         {
-            textInfo: 'Jueves 4 de abril',
-            iconInfo: Calendar,
+            textInfo: 'Hospital Santojanni, Pilar 950, CABA',
+            iconInfo: Location,
         },
         {
             textInfo: 'Modalidad',
-            iconInfo: Calendar,
+            iconInfo: Connection,
             type: {
-                virtual: 'Virtual',
-                Presencial: 'Presencial',
+                virtual: {
+                    title:'Virtual',
+                    text: 'Aula 4to piso, Hospital Santojanni.'
+                },
+                presencial: {
+                    title:'Presencial',
+                    text: 'Transmisión en vivo a través de Zoom.'
+                },
             },
         },
     ]
