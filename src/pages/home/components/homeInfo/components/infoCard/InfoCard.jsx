@@ -30,8 +30,8 @@ const InfoCard = ({ title, subTitle, paragraph, itemsInformation, ...connection 
                     
                     <div className='flex flex-col items-start justify-start text-White font-montserratAlternate font-Regular text-sm desktop:text-base'>
                         <p>{connection.textInfo}</p>
-                        <p><span className='font-Semibold'>{`${connection.type.presencial.title}:`}</span> {`${connection.type.presencial.text}:`}</p>
-                        <p><span className='font-Semibold'>{`${connection.type.virtual.title}:`}</span> {`${connection.type.virtual.text}:`}</p>
+                        <p><span className='font-Semibold'>{`${connection.type.presencial.title}:`}</span> {`${connection.type.presencial.text}`}</p>
+                        <p><span className='font-Semibold'>{`${connection.type.virtual.title}:`}</span> {`${connection.type.virtual.text}`}</p>
                     </div>
                 </li>
                 }
