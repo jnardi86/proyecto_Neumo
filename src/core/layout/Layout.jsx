@@ -1,11 +1,10 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
-import Navbar from '../../components/navbar/Navbar'
+
 
 const Layout = ({ children }) => {
     return (
-        <div>
-            <Navbar />
+        <div className="flex flex-col max-w-full mx-auto">
             {children}
             <Footer />
         </div>
