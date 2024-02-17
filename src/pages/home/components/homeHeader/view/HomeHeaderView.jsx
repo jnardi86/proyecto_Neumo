@@ -5,14 +5,10 @@ import HospitalItem from '../componentes/HospitalItem'
 import HeaderButton from '../componentes/HeaderButton'
 import useData from '../../../useData'
 
-
-
-
 const scrollToForm = () => {
   const formulario = document.getElementById('inscriptionForm');
   formulario.scrollIntoView({ behavior: 'smooth' });
 }
-
 
 const HomeHeaderView = () => {
 
