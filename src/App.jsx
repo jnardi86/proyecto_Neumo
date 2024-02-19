@@ -1,15 +1,10 @@
-import Layout from "./core/layout/Layout";
-import HomeView from "./pages/home/view/HomeView";
+import { RouterProvider } from "react-router-dom";
+import { appRouter } from "./core/router/AppRouter";
 
 function App() {
 
   return (
-    <>
-      <Layout>
-        <HomeView/>
-      </Layout>
-
-    </>
+    <RouterProvider router={appRouter} />
   )
 }
 
