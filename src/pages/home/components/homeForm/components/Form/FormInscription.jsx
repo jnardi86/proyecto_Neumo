@@ -12,7 +12,7 @@ const FormInscription = ({
     isToggled,
     btnSubmitText,
     handleSubmit,
-    onToggle
+    onToggle,
 }) => {
 
 

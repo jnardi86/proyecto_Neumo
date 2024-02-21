@@ -9,6 +9,7 @@ export default {
       'Blue': '#0E58A8',
       'Green': '#2FCE91',
       'White': '#F9F9F9',
+      'Black' : '#000'
     },
     fontWeight: {
       Regular: '400',

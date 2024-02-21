@@ -9,7 +9,7 @@ const InfoCard = ({ title, subTitle, paragraph, itemsInformation, ...connection 
             <h2 className="text-4xl font-montserrat font-Bold mb-1 text-White desktop:text-5xl">{title}</h2>
             <h3 className="text-xl font-montserrat font-Bold mb-1 text-White desktop:text-2xl">{subTitle}</h3>
             <div className=" py-4 mb-4">
-                <p className=" font-montserratAlternate font-Regular text-base desktop:text-lg text-White">{paragraph}</p>
+                <p className="font-montserratAlternate font-Regular text-base desktop:text-lg text-White">{paragraph}</p>
             </div>
             <ul className="flex flex-col justify-center items-start">
                 {
