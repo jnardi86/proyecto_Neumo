@@ -10,6 +10,9 @@ const useFormInscription = ({ openModal }) => {
     const [modalidad, setModalidad] = useState('');
     const [isToggled, setIsToggled] = useState(true);
     const [btnSubmitText, setBtnSubmitText] = useState('Inscribirse');
+    const [titleModal, setTitleModal] = useState('');
+    const [contentModal, setContentModal] = useState('');
+
     //Spreacsheet con API en informatica.santojanni https://docs.google.com/spreadsheets/d/1-aXFa1DX7qi829rd_Z6gFmaEtwk5igFPre71mJxWoEw/edit#gid=1328272183
     const urlFetchAPI = "https://script.google.com/macros/s/AKfycbwtYk3mjMFSHLSvaDOdvlmi9W9QMtGdrlD2iVg1v1t0Mu9FgS5eA3a9BSr42SpCNdjp/exec"
 
@@ -40,13 +43,27 @@ const useFormInscription = ({ openModal }) => {
             });
 
             // Handle the response from the Google Apps Script endpoint
-            const data = await response.json();
-            console.log("Response status: ", data);
+            const responseObject = await response.json();
+            console.log("Response status: ", responseObject);
 
-            setTimeout(() => {
-                setBtnSubmitText('Inscribirse');
-                openModal();
-            }, 1000);
+            //Lets check status
+            if (responseObject.status) {
+                setTimeout(() => {
+                    setBtnSubmitText('Inscribirse');
+                    setTitleModal('Tu Inscripción ha sido registrada');
+                    setContentModal('Gracias por inscribirte al Consorcio de Asma de hospitales públicos de CABA. Por favor revisa tu correo que te enviamos la confirmación de tu inscripción.');
+                    openModal();
+                }, 1000);
+            } else {
+                setTimeout(() => {
+                    setBtnSubmitText('Inscribirse');
+                    setTitleModal('ATENCION!');
+                    setContentModal(responseObject.errorMessage);
+                    openModal();
+                }, 1000);
+            }
+
+
 
             // Reset form fields
             setName('');
@@ -82,7 +99,11 @@ const useFormInscription = ({ openModal }) => {
         btnSubmitText,
         setBtnSubmitText,
         handleSubmit,
-        onToggle
+        onToggle,
+        titleModal,
+        setTitleModal,
+        contentModal,
+        setContentModal
     }
 }
 

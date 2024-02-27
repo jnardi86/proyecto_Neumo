@@ -31,7 +31,9 @@ const HomeFormView = () => {
     isToggled,
     btnSubmitText,
     handleSubmit,
-    onToggle
+    onToggle,
+    titleModal,
+    contentModal
   } = useFormInscription({openModal});
 
 
@@ -58,10 +60,11 @@ const HomeFormView = () => {
         showModalForm && (
           <FormModal
            closeModal={closeModal}
-           titleModal='Tu Inscripción ha sido registrada'
-           contentModal= 'Gracias por inscribirte al Consorcio de Asma de hospitales públicos de CABA. Por favor revisa tu correo que te enviamos la confirmación de tu inscripción.'
+          //  titleModal='Tu Inscripción ha sido registrada'
+           titleModal={titleModal}
+          //  contentModal= 'Gracias por inscribirte al Consorcio de Asma de hospitales públicos de CABA. Por favor revisa tu correo que te enviamos la confirmación de tu inscripción.'
+           contentModal=  {contentModal}
           >
-
           </FormModal>
         )
       }

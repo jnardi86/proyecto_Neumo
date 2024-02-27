@@ -10,7 +10,7 @@ const HeaderInformation = ({ textInfo: label, iconInfo: InformationIcon }) => {
                     height='25px'
                 />
             </span>
-            <span className='w-[175px] font-montserratAlternate font-Regular text-sm'>{label}</span>
+            <span className='w-[250px] font-montserratAlternate font-bold text-lg'>{label}</span>
         </li>
 
     )

@@ -23,7 +23,7 @@ export const FormModal = ({closeModal, titleModal, contentModal}) => {
             </div>
             <div className='flex justify-center items-center'>
               <HeaderButton
-                className='px-6 py-2 w-1/2 text-White bg-Blue border-solid border-2 border-Blue hover:bg-Green hover:border-Blue rounded-2xl font-montserrat text-xl font-Semibold desktop:p-3 desktop:text-2xl desktop:w-1/4'
+                className='px-6 py-2  text-White bg-Blue border-solid border-2 border-Blue hover:bg-Green hover:border-Blue rounded-2xl font-montserrat text-xl font-Semibold desktop:p-3 desktop:text-2xl'
                 onClick={closeModal}
                 type='button'
                 label='Volver'

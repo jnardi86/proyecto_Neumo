@@ -21,7 +21,7 @@ const HomeInfoView = () => {
                 <InfoCard
                     title='Consorcio de Asma'
                     subTitle='de hospitales públicos de CABA'
-                    paragraph='Inscribite a la jornada informativa sobre el manejo y tratamiento del asma, organizada por el Consorcio de Asma de Hospitales Públicos de CABA. Este evento contará con la participación de expertos de los prestigiosos Hospitales Santojanni, Ramos Mejía y Fernández.'
+                    paragraph='Inscribite a la jornada informativa sobre el manejo y tratamiento del asma, organizada por el Consorcio de Asma de Hospitales Públicos de CABA. Este evento contará con la participación de prestigiosos disertantes de hospitales públicos y privados de la Ciudad de Buenos Aires.'
                     itemsInformation={newItemsInformation}
                     {...connection}
                 />

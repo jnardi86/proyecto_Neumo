@@ -12,6 +12,11 @@ import Dr_Martin_Sívori_PS from "../../assets/speakers/Dr_Martin_Sívori_PS.jpg
 import Dr_Ricardo_del_Olmo_PS from "../../assets/speakers/Dr_Ricardo_del_Olmo_PS.jpg"
 import Dra_Laura_Orazi_PS from "../../assets/speakers/Dra_Laura_Orazi_PS.jpg"
 import Dra_Valeria_Brichetti_PS from "../../assets/speakers/Dra_Valeria_Brichetti_PS.jpg"
+import Dr_Fernando_Saldarini_PS from "../../assets/speakers/Dr_Fernando_Saldarini_PS.jpg"
+
+import elea from "../../assets/logos/ELEA_PS.jpg"
+import cassara from "../../assets/logos/CASSARA_PS.jpg"
+import casasco from "../../assets/logos/CASASCO_PS.jpg"
 
 const useData = () => {
 
@@ -25,7 +30,7 @@ const useData = () => {
             iconInfo: Time,
         },
         {
-            textInfo: 'Hospital Santojanni, Pilar 950, CABA',
+            textInfo: 'Hospital Santojanni, Pilar 950 - 4to Piso, CABA',
             iconInfo: Location,
         },
         {
@@ -62,65 +67,84 @@ const useData = () => {
     const speakers = [
         {
             name: "Dra. Valeria Brichetti",
-            speciality: "Neumonología",
-            review: "Experta en enfermedades respiratorias. Ha dedicado su carrera a mejorar la calidad de vida de pacientes con asma.",
+            speciality: "",
+            review: "Médica de planta del servicio de neumotisiologia Hospital Santojanni | Consultrio de asma grave Hospital Santojanni",
             image: Dra_Valeria_Brichetti_PS,
         },
         {
             name: "Dr. Daniel Colodenco",
-            speciality: "Neumonología",
-            review: "Experta en enfermedades respiratorias. Ha dedicado su carrera a mejorar la calidad de vida de pacientes con asma.",
+            speciality: "",
+            review: "Ex-Jefe de Alergia e Inmunología Hospital María Ferrer | Director de la Carrera de Especialistas en Neumonología UBA | Ex-Presidente de la Asociación Argentina de Medicina Respiratoria (AAMR)",
             image: Dr_Daniel_Colodenco_PS,
         },
         {
-            name: "Dr. Daniel Pancasky",
-            speciality: "Alergología",
-            review: "Especialista en alergias respiratorias. Su investigación ha contribuido al avance en el tratamiento del asma alérgica.",
+            name: "Dr. Daniel Pascansky",
+            speciality: "",
+            review: "Médico de planta de neumotisiologia Hospital Ramos Mejia",
             image: Dr_Daniel_Pancasky_PS,
         },
         {
-            name: "Dr. Diego Litewka",
-            speciality: "Educación en Salud",
-            review: "Educadora en salud respiratoria. Trabaja para concientizar a la comunidad sobre la importancia del manejo adecuado del asma.",
+            name: "Dr. Diego Lirewka",
+            speciality: "",
+            review: "Jefe Sección Neumotiisiologia | Hospital Fernandez",
             image: Dr_Diego_Litewka_PS,
         },
         {
-            name: "Dr. Jose Malet",
-            speciality: "Investigación Médica",
-            review: "Investigador médico enfocado en descubrir nuevas terapias para el tratamiento del asma. Sus contribuciones son reconocidas a nivel internacional.",
+            name: "Dr. Jose María Malet Ruiz",
+            speciality: "",
+            review: "Médico de Planta (Neumonología) Hospital de Rehabilitación Respiratoria “María Ferrer” Gobierno de la Ciudad Autónoma de Bs. As. | Jefe de Unidad Investigación Clínica y Experimental. Hospital de Rehabilitación Respiratoria María Ferrer",
             image: Dr_Jose_Malet_PS,
         },
         {
             name: "Dr. Marcos Hernandez",
-            speciality: "Pediatría",
-            review: "Pediatra con experiencia en asma infantil. Trabaja para mejorar el diagnóstico y tratamiento del asma en niños.",
+            speciality: "",
+            review: "Médico de planta Sanatorio Guemes | Coordinador consultorio de asma grave Sanatorio Güemes",
             image: Dr_Marcos_Hernandez_PS,
         },
         {
             name: "Dr. Martin Sívori",
-            speciality: "Psicología de la Salud",
-            review: "Psicólogo especializado en el impacto psicológico del asma. Ayuda a pacientes a manejar el estrés asociado con la enfermedad.",
+            speciality: "",
+            review: "Jefe Unidad Neumotisiología  Hospital Ramos Mejía Director carrera especialista neumonología UBA",
             image: Dr_Martin_Sívori_PS,
         },
         {
             name: "Dr. Ricardo del Olmo",
-            speciality: "Psicología de la Salud",
-            review: "Psicólogo especializado en el impacto psicológico del asma. Ayuda a pacientes a manejar el estrés asociado con la enfermedad.",
+            speciality: "",
+            review: "Jefe de Servicio de Diagnóstico y Tratamiento Hospital María Ferrer & Investigador IDIM",
             image: Dr_Ricardo_del_Olmo_PS,
         },
         {
             name: "Dra. Laura Orazi",
-            speciality: "Psicología de la Salud",
-            review: "Psicólogo especializado en el impacto psicológico del asma. Ayuda a pacientes a manejar el estrés asociado con la enfermedad.",
+            speciality: "",
+            review: "Médica de planta Neumonologia Hospital italiano Buenos Aires | Consultorio Asma grave Hospital italiano Buenos aires Trasplante pulmonar hospital Italiano buenos aires | Subcoordinadora sección trasplante de Pulmonar AAMR | Coordinadora laboratorio pulmonar hospital italiano Buenos Aires",
             image: Dra_Laura_Orazi_PS,
+        },
+        {
+            name: "Dr. Fernando Saldarini",
+            speciality: "",
+            review: "Jefe Unidad Neumotisiología Hospital Santojanni | Director adscripto carrera especialista neumonología UBA",
+            image: Dr_Fernando_Saldarini_PS,
         },
     ]
 
-return {
-    itemsInformation,
-    itemsHospitals,
-    speakers
-}
+    const logos = [
+        {
+            image: elea,
+        },
+        {
+            image: cassara,
+        },
+        {
+            image: casasco
+        }
+    ]
+
+    return {
+        itemsInformation,
+        itemsHospitals,
+        speakers,
+        logos
+    }
 }
 
 export default useData;

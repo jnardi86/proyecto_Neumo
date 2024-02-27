@@ -10,7 +10,7 @@ const SpeakerCard = ({ name: name, speciality: speciality, review: review, image
   }
 
   return (
-    <div className="w-[90%] h-[550px] mx-auto mb-5 flex flex-col items-center justify-center bg-Blue border-solid border-4 border-White rounded-xl">
+    <div className="w-[90%] h-[550px] mx-auto mb-5 flex flex-col items-center justify-top bg-Blue border-solid border-4 border-White rounded-xl">
       <div
         className="w-full h-64 pt-1 flex items-center justify-center"
       >
