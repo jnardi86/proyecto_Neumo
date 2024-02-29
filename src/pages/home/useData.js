@@ -80,13 +80,13 @@ const useData = () => {
         {
             name: "Dr. Daniel Pascansky",
             speciality: "",
-            review: "Médico de planta de neumotisiologia Hospital Ramos Mejia",
+            review: "Médico de planta de neumotisiologia Hospital Ramos Mejia | Subdirector de la Carrera de Especialista UBA ",
             image: Dr_Daniel_Pancasky_PS,
         },
         {
-            name: "Dr. Diego Lirewka",
+            name: "Dr. Diego Litewka",
             speciality: "",
-            review: "Jefe Sección Neumotiisiologia | Hospital Fernandez",
+            review: "Jefe Sección Neumotisiologia | Hospital Fernandez",
             image: Dr_Diego_Litewka_PS,
         },
         {
