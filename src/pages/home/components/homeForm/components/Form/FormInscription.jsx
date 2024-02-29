@@ -24,7 +24,7 @@ const FormInscription = ({
             </div>
             <form className="max-w-sm mx-auto" id="inscriptionForm" onSubmit={handleSubmit}>
                 <div>
-                    <label className="block mb-4 text-xl font-montserratAlternate font-Semibold">Modalidad</label>
+                    <label className="block mb-4 text-xl font-montserratAlternate font-Semibold">Seleccionar Modalidad</label>
                     <label className="block mb-4 text-lg font-montserratAlternate font-Regular">{isToggled ? 'Presencial' : 'Virtual'}</label>
                     <label htmlFor="check" className={`w-20 h-10 rounded-full relative ${isToggled ? 'bg-Green' : 'bg-Blue'}`}>
                         <input
