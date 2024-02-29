@@ -1,5 +1,7 @@
+import HeaderButton from "../../../homeHeader/componentes/HeaderButton";
 import InfoItem from "./InfoItem";
 
+const URL_PROGRAMA = 'https://drive.google.com/file/d/1FXY8waQcY9_yf0_L1DnF2JF9mO3A91u-/view';
 
 
 const InfoCard = ({ title, subTitle, paragraph, itemsInformation, ...connection }) => {
@@ -22,21 +24,26 @@ const InfoCard = ({ title, subTitle, paragraph, itemsInformation, ...connection 
                 }
                 {
                     <li className="flex items-start gap-2 mb-3">
-                    <connection.iconInfo
-                        color='#2FCE91'
-                        width='25px'
-                        height='25px'
-                    />
-                    
-                    <div className='flex flex-col items-start justify-start text-White font-montserratAlternate font-Regular text-sm desktop:text-base'>
-                        <p>{connection.textInfo}</p>
-                        <p><span className='font-Semibold'>{`${connection.type.presencial.title}:`}</span> {`${connection.type.presencial.text}`}</p>
-                        <p><span className='font-Semibold'>{`${connection.type.virtual.title}:`}</span> {`${connection.type.virtual.text}`}</p>
-                    </div>
-                </li>
+                        <connection.iconInfo
+                            color='#2FCE91'
+                            width='25px'
+                            height='25px'
+                        />
+
+                        <div className='flex flex-col items-start justify-start text-White font-montserratAlternate font-Regular text-sm desktop:text-base'>
+                            <p>{connection.textInfo}</p>
+                            <p><span className='font-Semibold'>{`${connection.type.presencial.title}:`}</span> {`${connection.type.presencial.text}`}</p>
+                            <p><span className='font-Semibold'>{`${connection.type.virtual.title}:`}</span> {`${connection.type.virtual.text}`}</p>
+                        </div>
+                    </li>
                 }
 
             </ul>
+            <div className="flex justify-center items-center py-5">
+                <a href={URL_PROGRAMA} target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-2 text-White bg-Blue border-solid border-2 border-White hover:bg-Green hover:border-Blue rounded-2xl font-montserrat text-lg font-Semibold desktop:p-3 desktop:text-2xl">Ver Programa</button>
+                </a>
+            </div>
         </div>
     )
 }
