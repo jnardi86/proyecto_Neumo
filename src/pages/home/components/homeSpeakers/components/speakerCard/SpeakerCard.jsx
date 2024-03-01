@@ -19,7 +19,6 @@ const SpeakerCard = ({ name: name, speciality: speciality, review: review, image
       <div className="w-full mb-5 p-5 flex flex-col justify-center items-center rounded-xl md:px-2 md:py-5">
         <h3 className="text-xl p-2 font-montserrat font-Bold text-White md:text-2xl">{name}</h3>
         <h5 className="text-base font-montserrat font-Semibold mb-3 text-White desktop: md:text-xl">{speciality}</h5>
-<<<<<<< HEAD
         {/* {showFullReview ? review : `${review.slice(0, 150)}...`} */}
         {/* <p className="font-montserratAlternate font-Regular text-sm text-start leading-relaxed md:text-xl text-White">
             {review} </p> */}
@@ -29,13 +28,6 @@ const SpeakerCard = ({ name: name, speciality: speciality, review: review, image
           </p>
         ))}
 
-=======
-        <p
-          className="font-montserratAlternate font-Regular text-sm text-start  md:text-lg text-White">
-            {/* {showFullReview ? review : `${review.slice(0, 150)}...`} */}
-            {review}
-        </p>
->>>>>>> dfbdb913e9da1b0c63780fb8abb96a9777a4e0e6
         <div>
           {/* <div className="w-full flex justify-start">
             <HeaderButton
