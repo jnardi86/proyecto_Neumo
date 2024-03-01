@@ -117,7 +117,7 @@ const useData = () => {
         {
             name: "Dra. Laura Orazi",
             speciality: "",
-            review: "Médica de planta Neumonología Hospital italiano Buenos Aires | Consultorio Asma grave Hospital Italiano Buenos Aires | Subcoordinadora sección trasplante Pulmonar AAMR | Coordinadora laboratorio pulmonar Hospital Italiano Buenos Aires",
+            review: "Médica de planta Neumonología Hospital Italiano Buenos Aires | Consultorio Asma grave Hospital Italiano Buenos Aires | Subcoordinadora sección trasplante Pulmonar AAMR | Coordinadora laboratorio pulmonar Hospital Italiano Buenos Aires",
             image: Dra_Laura_Orazi_PS,
         },
         {

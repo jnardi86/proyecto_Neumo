@@ -18,7 +18,7 @@ const FormInscription = ({
 
 
     return (
-        <div className={`max-w-2xl mx-auto px-2 py-5 mb-10 rounded-xl ${isToggled ? 'bg-Blue text-White' : 'bg-Green text-Blue'} desktop:w-1/2 desktop:order-first`}>
+        <div className={`max-w-2xl mx-auto px-2 py-5 mb-10 rounded-xl ${isToggled ? 'bg-Blue text-White' : 'bg-Green text-Blue'} laptop:w-1/2 laptop:order-first`}>
             <div className="w-full text-left md:text-center">
                 <h2 className='font-montserrat font-Bold text-4xl mb-10'>INSCRIPCION</h2>
             </div>
