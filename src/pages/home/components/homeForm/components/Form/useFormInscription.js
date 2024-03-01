@@ -14,8 +14,9 @@ const useFormInscription = ({ openModal }) => {
     const [contentModal, setContentModal] = useState('');
 
     //Spreacsheet con API en informatica.santojanni https://docs.google.com/spreadsheets/d/1-aXFa1DX7qi829rd_Z6gFmaEtwk5igFPre71mJxWoEw/edit#gid=1328272183
-    const urlFetchAPI = "https://script.google.com/macros/s/AKfycbwtYk3mjMFSHLSvaDOdvlmi9W9QMtGdrlD2iVg1v1t0Mu9FgS5eA3a9BSr42SpCNdjp/exec"
-    // const urlFetchAPI = 'https://script.google.com/macros/s/AKfycbzqFOCKYwAQGEoJ2SSefSqE5QvdBPoh14ypyRvl4TM1rGtE2nW-MqasVVk16-Cqs3FNOQ/exec'
+    const urlFetchAPI = "https://script.google.com/macros/s/AKfycbzqFOCKYwAQGEoJ2SSefSqE5QvdBPoh14ypyRvl4TM1rGtE2nW-MqasVVk16-Cqs3FNOQ/exec" //con API en consorcioasmahp@gmail.com
+    //Link spreadsheet consorcioasmahp@gmail.com
+    //https://docs.google.com/spreadsheets/d/1bd_fkSXhKwZ1C5lbYpyp4DiSTbHr2bojTZ9JCDHV3yI/edit?pli=1#gid=0
 
     const handleSubmit = async (e) => {
 
