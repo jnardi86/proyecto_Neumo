@@ -5,7 +5,7 @@ import secretaryPhoto from '../../../../../assets/speakers/Dra_Alejandra_Celenza
 const HomePresentationView = () => {
   return (
     <div className='mb-40 w-full'>
-        <div className='w-full  mx-auto p-4 sm:p-6 lg:p-8 bg-Blue shadow-md rounded-xl md:w-[90%] lg:w-[66%] desktop:w-full'>
+        <div className='max-w-2xl laptop:max-w-full mx-auto desktop:mx-0 p-4 sm:p-6 lg:p-8 bg-Blue rounded-xl'>
                 <Director 
                     directorTitle='Director'
                     directorPhoto={directorPhoto}

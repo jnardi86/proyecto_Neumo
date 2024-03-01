@@ -20,7 +20,7 @@ const SpeakerCard = ({ name: name, speciality: speciality, review: review, image
         <h3 className="text-xl p-2 font-montserrat font-Bold text-White md:text-4xl">{name}</h3>
         <h5 className="text-base font-montserrat font-Semibold mb-3 text-White desktop: md:text-xl">{speciality}</h5>
         <p
-          className="font-montserratAlternate font-Regular text-base leading-relaxed md:text-xl text-White">
+          className="font-montserratAlternate font-Regular text-sm text-start leading-relaxed md:text-xl text-White">
             {/* {showFullReview ? review : `${review.slice(0, 150)}...`} */}
             {review}
         </p>

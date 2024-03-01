@@ -25,7 +25,7 @@ const SpeakerCarousel = () => {
           spaceBetween:20,
           slidesPerView:1,
         },
-        1440:{
+        1366:{
           spaceBetween:20,
           slidesPerView:2,
         }
