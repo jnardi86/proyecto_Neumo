@@ -66,16 +66,22 @@ const useData = () => {
 
     const speakers = [
         {
-            name: "Dra. Valeria Brichetti",
-            speciality: "",
-            review: "Médica de planta del servicio de neumotisiologia Hospital Santojanni | Consultrio de asma grave Hospital Santojanni",
-            image: Dra_Valeria_Brichetti_PS,
-        },
-        {
             name: "Dr. Daniel Colodenco",
             speciality: "",
-            review: "Ex-Jefe de Alergia e Inmunología Hospital María Ferrer | Director de la Carrera de Especialistas en Neumonología UBA | Ex-Presidente de la Asociación Argentina de Medicina Respiratoria (AAMR)",
             image: Dr_Daniel_Colodenco_PS,
+            review: "Ex-Jefe de Alergia e Inmunología Hospital María Ferrer | Director de la Carrera de Especialistas en Neumonología UBA  Ex-Presidente de la Asociación Argentina de Medicina Respiratoria (AAMR)",
+        },
+        {
+            name: "Dr. Martin Sívori",
+            speciality: "",
+            review: "Jefe Unidad Neumotisiología Hospital Ramos Mejía | Director carrera especialista neumonología UBA",
+            image: Dr_Martin_Sívori_PS,
+        },
+        {
+            name: "Dra. Valeria Brichetti",
+            speciality: "",
+            review: "Médica de planta del servicio de neumotisiologia Hospital Santojanni | Consultorio de asma grave Hospital Santojanni",
+            image: Dra_Valeria_Brichetti_PS,
         },
         {
             name: "Dr. Daniel Pascansky",
@@ -86,27 +92,22 @@ const useData = () => {
         {
             name: "Dr. Diego Litewka",
             speciality: "",
-            review: "Jefe Sección Neumotisiologia | Hospital Fernandez",
+            review: "Jefe Sección Neumotisiologia Hospital Fernandez",
             image: Dr_Diego_Litewka_PS,
         },
         {
             name: "Dr. Jose María Malet Ruiz",
             speciality: "",
-            review: "Médico de Planta (Neumonología) Hospital de Rehabilitación Respiratoria “María Ferrer” Gobierno de la Ciudad Autónoma de Bs. As. | Jefe de Unidad Investigación Clínica y Experimental. Hospital de Rehabilitación Respiratoria María Ferrer",
+            review: "Jefe de Unidad Investigación Clínica y Experimental. Hospital de Rehabilitación Respiratoria María Ferrer",
             image: Dr_Jose_Malet_PS,
         },
         {
             name: "Dr. Marcos Hernandez",
             speciality: "",
-            review: "Médico de planta Sanatorio Guemes | Coordinador consultorio de asma grave Sanatorio Güemes",
+            review: "Médico de planta Sanatorio Güemes | Coordinador consultorio de asma grave Sanatorio Güemes",
             image: Dr_Marcos_Hernandez_PS,
         },
-        {
-            name: "Dr. Martin Sívori",
-            speciality: "",
-            review: "Jefe Unidad Neumotisiología  Hospital Ramos Mejía Director carrera especialista neumonología UBA",
-            image: Dr_Martin_Sívori_PS,
-        },
+
         {
             name: "Dr. Ricardo del Olmo",
             speciality: "",
@@ -116,7 +117,7 @@ const useData = () => {
         {
             name: "Dra. Laura Orazi",
             speciality: "",
-            review: "Médica de planta Neumonologia Hospital italiano Buenos Aires | Consultorio Asma grave Hospital italiano Buenos aires Trasplante pulmonar hospital Italiano buenos aires | Subcoordinadora sección trasplante de Pulmonar AAMR | Coordinadora laboratorio pulmonar hospital italiano Buenos Aires",
+            review: "Médica de planta Neumonología Hospital italiano Buenos Aires | Consultorio Asma grave Hospital Italiano Buenos Aires | Subcoordinadora sección trasplante Pulmonar AAMR | Coordinadora laboratorio pulmonar Hospital Italiano Buenos Aires",
             image: Dra_Laura_Orazi_PS,
         },
         {

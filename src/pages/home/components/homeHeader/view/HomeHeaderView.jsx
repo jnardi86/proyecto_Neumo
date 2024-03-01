@@ -39,7 +39,7 @@ const HomeHeaderView = () => {
       </div>
       <div className='w-full flex flex-col justify-center items-center font-montserrat font-Bold desktop:items-start desktop:p-5'>
         <h1 className='text-2xl lg:text-5xl desktop:text-7xl'>CONSORCIO DE ASMA 2024</h1>
-        <h3 className='text-lg lg:text-3xl desktop:text-5xl'>De Hospitales Públicos de CABA</h3>
+        <h3 className='text-lg lg:text-3xl desktop:text-5xl'>Hospitales Públicos de CABA</h3>
       </div>
       < div className='w-full flex justify-center my-10 lg:my-0 desktop:justify-start desktop:pl-5'>
         <ul className='flex flex-col items-center lg:flex-row'>
