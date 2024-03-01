@@ -53,14 +53,14 @@ const useFormInscription = ({ openModal }) => {
                 setTimeout(() => {
                     setBtnSubmitText('Inscribirse');
                     setTitleModal('Tu Inscripción ha sido registrada');
-                    setContentModal('Gracias por inscribirte al Consorcio de Asma de hospitales públicos de CABA. Por favor revisa tu correo que te enviamos la confirmación de tu inscripción.');
+                    setContentModal(`${responseObject.data.name} ${responseObject.data.lastName}, gracias por inscribirte al Consorcio de Asma de hospitales públicos de CABA. Te enviamos un correo electrónico a ${responseObject.data.email} con la confirmación y el evento para que agregues a tu calendario.`);
                     openModal();
                 }, 1000);
             } else {
                 setTimeout(() => {
                     setBtnSubmitText('Inscribirse');
                     setTitleModal('ATENCION!');
-                    setContentModal(responseObject.errorMessage);
+                    setContentModal(responseObject.error);
                     openModal();
                 }, 1000);
             }
