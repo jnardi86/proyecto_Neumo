@@ -13,11 +13,11 @@ const HomeInfoView = () => {
     const newItemsInformation = itemsInformation.slice(0, lastIndex);
 
     return (
-        <div className='mb-40 desktop:flex desktop:justify-center desktop:items-center'>
-            <div className='mb-40 desktop:mb-0 desktop:w-1/2 desktop:flex desktop:items-center desktop:p-4 desktop:h-[537px] desktop:bg-Green desktop:rounded-r-full'>
+        <div className='mb-40 laptop:flex laptop:gap-4 laptop:justify-center laptop:items-center'>
+            <div className='mb-40 laptop:mb-0 laptop:w-1/2 laptop:flex laptop:items-center laptop:p-4 laptop:h-[537px] laptop:bg-Green laptop:rounded-r-full'>
                 <Countdown />
             </div>
-            <div className="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8 bg-Blue shadow-md rounded-xl desktop:w-1/2">
+            <div className="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8 bg-Blue shadow-md rounded-xl laptop:w-1/2">
                 <InfoCard
                     title='Consorcio de Asma'
                     subTitle='de hospitales públicos de CABA'

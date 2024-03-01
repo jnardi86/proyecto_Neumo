@@ -38,7 +38,7 @@ const HomeFormView = () => {
 
 
   return (
-    <div className='mb-40 desktop:flex'>
+    <div className='mb-40 laptop:flex'>
       <FormInformation
         isToggled={isToggled}
       />

@@ -70,28 +70,28 @@ const useData = () => {
             speciality: "",
             image: Dr_Daniel_Colodenco_PS,
             review: ["Ex-Jefe de Alergia e Inmunología Hospital María Ferrer",
-            "Director de la Carrera de Especialistas en Neumonología UBA",
-            "Ex-Presidente de la Asociación Argentina de Medicina Respiratoria (AAMR)"]
+                "Director de la Carrera de Especialistas en Neumonología UBA",
+                "Ex-Presidente de la Asociación Argentina de Medicina Respiratoria (AAMR)"]
         },
         {
             name: "Dr. Martin Sívori",
             speciality: "",
             review: ["Jefe Unidad Neumotisiología Hospital Ramos Mejía",
-            "Director carrera especialista neumonología UBA"],
+                "Director carrera especialista neumonología UBA"],
             image: Dr_Martin_Sívori_PS,
         },
         {
             name: "Dra. Valeria Brichetti",
             speciality: "",
             review: ["Médica de planta del servicio de neumotisiologia Hospital Santojanni",
-            "Consultorio de asma grave Hospital Santojanni"],
+                "Consultorio de asma grave Hospital Santojanni"],
             image: Dra_Valeria_Brichetti_PS,
         },
         {
             name: "Dr. Daniel Pascansky",
             speciality: "",
             review: ["Médico de planta de neumotisiologia Hospital Ramos Mejia",
-            "Subdirector de la Carrera de Especialista UBA "],
+                "Subdirector de la Carrera de Especialista UBA "],
             image: Dr_Daniel_Pancasky_PS,
         },
         {
@@ -110,7 +110,7 @@ const useData = () => {
             name: "Dr. Marcos Hernandez",
             speciality: "",
             review: ["Médico de planta Sanatorio Güemes",
-            "Coordinador consultorio de asma grave Sanatorio Güemes"],
+                "Coordinador consultorio de asma grave Sanatorio Güemes"],
             image: Dr_Marcos_Hernandez_PS,
         },
 
@@ -124,16 +124,16 @@ const useData = () => {
             name: "Dra. Laura Orazi",
             speciality: "",
             review: ["Médica de planta Neumonología Hospital italiano Buenos Aires",
-            "Consultorio Asma grave Hospital Italiano Buenos Aires",
-             "Subcoordinadora sección trasplante Pulmonar AAMR",
-             "Coordinadora laboratorio pulmonar Hospital Italiano Buenos Aires"],
+                "Consultorio Asma grave Hospital Italiano Buenos Aires",
+                "Subcoordinadora sección trasplante Pulmonar AAMR",
+                "Coordinadora laboratorio pulmonar Hospital Italiano Buenos Aires"],
             image: Dra_Laura_Orazi_PS,
         },
         {
             name: "Dr. Fernando Saldarini",
             speciality: "",
             review: ["Jefe Unidad Neumotisiología Hospital Santojanni",
-            "Director adscripto carrera especialista neumonología UBA"],
+                "Director adscripto carrera especialista neumonología UBA"],
             image: Dr_Fernando_Saldarini_PS,
         },
     ]
