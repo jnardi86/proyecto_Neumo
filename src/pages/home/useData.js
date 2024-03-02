@@ -14,9 +14,9 @@ import Dra_Laura_Orazi_PS from "../../assets/speakers/Dra_Laura_Orazi_PS.jpg"
 import Dra_Valeria_Brichetti_PS from "../../assets/speakers/Dra_Valeria_Brichetti_PS.jpg"
 import Dr_Fernando_Saldarini_PS from "../../assets/speakers/Dr_Fernando_Saldarini_PS.jpg"
 
-import elea from "../../assets/logos/ELEA_PS.jpg"
-import cassara from "../../assets/logos/CASSARA_PS.jpg"
-import casasco from "../../assets/logos/CASASCO_PS.jpg"
+import elea from "../../assets/logos/logo_elea.png"
+import cassara from "../../assets/logos/logo_cassara.png"
+import casasco from "../../assets/logos/logo_casasco.png"
 
 const useData = () => {
 
@@ -140,12 +140,15 @@ const useData = () => {
 
     const logos = [
         {
+            title: 'Elea',
             image: elea,
         },
         {
+            title: 'Cassara',
             image: cassara,
         },
         {
+            title: 'Casasco',
             image: casasco
         }
     ]
