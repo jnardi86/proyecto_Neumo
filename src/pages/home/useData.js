@@ -1,3 +1,4 @@
+import React,{useEffect, useState} from "react"
 import Calendar from "../../components/svg/Calendar"
 import MedicalCard from "../../components/svg/MedicalCard"
 import Time from "../../components/svg/Time"
@@ -19,6 +20,22 @@ import cassara from "../../assets/logos/logo_cassara.png"
 import casasco from "../../assets/logos/logo_casasco.png"
 
 const useData = () => {
+
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setScreenWidth(window.innerWidth);
+        };
+
+        // Attach the event listener to update screenWidth on resize
+        window.addEventListener('resize', handleResize);
+
+        // Remove the event listener when the component is unmounted
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []); // Empty dependency array ensures that useEffect runs only once
 
     const itemsInformation = [
         {
@@ -157,7 +174,8 @@ const useData = () => {
         itemsInformation,
         itemsHospitals,
         speakers,
-        logos
+        logos,
+        screenWidth
     }
 }
 
