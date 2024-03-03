@@ -28,6 +28,9 @@ export default {
         'laptop': '1366px',
         'tablet': '1024px'
       },
+      backgroundImage: {
+        'heroLogo': "url('./src/assets/Hero_3Hs_layer_blue.png')"
+      },
     },
   },
 

@@ -24,17 +24,12 @@ const HomeHeaderView = () => {
 
   return (
     <div
-      className=' bg-Blue text-White flex flex-col items-center justify-center mb-40 lg:bg-none'
+      className=' bg-Blue text-White flex flex-col items-center justify-center mb-40 lg:bg-right lg:bg-no-repeat desktop:justify-between desktop:h-[600px]'
       style={{
-        backgroundImage: screenWidth > 1024 ? `url(${hospitales})` : 'none', // Use the url() syntax
-        backgroundSize: 'auto 100%', // Adjust this property based on your design requirements
-        backgroundPosition: 'right', // Adjust this property based on your design requirements
-        backgroundRepeat: 'no-repeat', // Do not repeat the background image
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        height: '600px'
+        backgroundImage: screenWidth > 1024 ? `url(${hospitales})` : 'none', 
+        backgroundSize: 'auto 100%', 
+        // justifyContent: 'space-between',
+        // height: '600px'
       }}
       >
       {/* Logo */}
@@ -54,9 +49,9 @@ const HomeHeaderView = () => {
         </div>
       </div>
       {/* Title */}
-      <div className='w-full flex flex-col justify-center items-center font-montserrat font-Bold ps-5 tablet:items-start desktop:items-start desktop:p-5'>
-        <h1 className='text-2xl lg:text-5xl desktop:text-7xl'>CONSORCIO DE ASMA 2024</h1>
-        <h3 className='text-lg lg:text-3xl desktop:text-5xl'>Hospitales Públicos de CABA</h3>
+      <div className='w-full flex flex-col justify-center items-center font-montserrat font-Bold tablet:ps-5 tablet:items-start desktop:p-5'>
+        <h1 className='text-2xl lg:text-4xl laptop:text-5xl'>CONSORCIO DE ASMA 2024</h1>
+        <h3 className='text-lg lg:text-3xl laptop:text-3xl'>Hospitales Públicos de CABA</h3>
       </div>
       {/* 3 hospitales */}
       < div className='w-full flex justify-center my-10 lg:my-0 ps-5 tablet:justify-start desktop:justify-start desktop:pl-5'>
@@ -79,7 +74,7 @@ const HomeHeaderView = () => {
         /> */}
       </div>
       {/* <div className='flex justify-center items-center w-full bg-Green py-5 desktop:rounded-tl-full desktop:rounded-tr-full'> */}
-      <div className='flex justify-center items-center w-auto px-8 bg-Green py-5 desktop:rounded-tl-full desktop:rounded-tr-full'>
+      <div className='flex justify-center items-center w-full px-8 bg-Green py-5 desktop:rounded-tl-full desktop:rounded-tr-full'>
         <ul className='flex flex-col items-center md:flex-row'>
           {
             newInformationItems.map((infoItem, index) => (
