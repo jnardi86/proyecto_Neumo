@@ -74,7 +74,7 @@ const HomeHeaderView = () => {
         /> */}
       </div>
       {/* <div className='flex justify-center items-center w-full bg-Green py-5 desktop:rounded-tl-full desktop:rounded-tr-full'> */}
-      <div className='flex justify-center items-center w-full px-8 bg-Green py-5 desktop:rounded-tl-full desktop:rounded-tr-full'>
+      <div className='flex justify-center items-center w-full px-8 bg-Green py-5 lg:rounded-tl-full lg:rounded-tr-full'>
         <ul className='flex flex-col items-center md:flex-row'>
           {
             newInformationItems.map((infoItem, index) => (
