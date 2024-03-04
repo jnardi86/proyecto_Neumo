@@ -15,7 +15,8 @@ const Logos = ({image: image, title: title}) => {
         // </div>
         <div className="h-full w-[300px] flex justify-center overflow-hidden m-2 flex-shrink-0 cursor-pointer">
             <div className="w-full h-full  rounded-3xl mb-4 flex justify-center">
-                <img src={image} alt={`Sponsor ${title}`} className="w-[150px] h-[150px] grayscale" />
+                {/* <img src={image} alt={`Sponsor ${title}`} className="w-[150px] h-[150px] grayscale" /> */}
+                <img src={image} alt={`Sponsor ${title}`} className="h-[150px]" />
             </div>
         </div>
     )
