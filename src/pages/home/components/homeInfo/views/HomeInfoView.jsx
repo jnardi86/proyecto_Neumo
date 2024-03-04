@@ -20,7 +20,7 @@ const HomeInfoView = () => {
             <div className="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8 bg-Blue shadow-md rounded-xl laptop:w-1/2">
                 <InfoCard
                     title='Consorcio de Asma'
-                    subTitle='de hospitales públicos de CABA'
+                    subTitle='Hospitales públicos de CABA'
                     paragraph='Inscribite a la jornada informativa sobre el manejo y tratamiento del asma, organizada por el Consorcio de Asma de Hospitales Públicos de CABA. Este evento contará con la participación de prestigiosos disertantes de hospitales públicos y privados de la Ciudad de Buenos Aires.'
                     itemsInformation={newItemsInformation}
                     {...connection}

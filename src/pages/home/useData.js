@@ -56,11 +56,11 @@ const useData = () => {
             type: {
                 virtual: {
                     title: 'Virtual',
-                    text: 'Aula 4to piso, Hospital Santojanni.'
+                    text: 'Transmisión en vivo a través de Zoom'
                 },
                 presencial: {
                     title: 'Presencial',
-                    text: 'Transmisión en vivo a través de Zoom.'
+                    text: 'Aula 4to piso, Hospital Santojanni'
                 },
             },
         },
